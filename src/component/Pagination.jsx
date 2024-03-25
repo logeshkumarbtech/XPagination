@@ -24,7 +24,7 @@ export default function Pagination() {
         console.log(response.data)
         setEmpData(response.data)
       } catch (err) {
-        console.error("Error fetching data: ", err);
+        console.error("failed to fetch data");
       }
     };
 
