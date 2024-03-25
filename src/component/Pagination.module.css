@@ -1,0 +1,48 @@
+
+.table{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 0px solid #018749;
+    width: 90vw;
+    height: 200px;
+    margin-bottom: 40px;
+}
+thead td{
+    width:20%
+}
+
+td{
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+}
+
+.tableRow {    
+    background-color: #018749;
+}
+
+.tableDataRow td{
+    text-align: start;
+}
+
+.container{
+    text-align:center
+}
+
+.buttons button{
+    background-color: #018749;
+    margin-right: 20px;
+    padding: 15px;
+    color: white;
+    border: 1px solid #018749;
+    height:50px;
+    border-radius: 5px;  
+}
+
+button:active{
+    background-color: #1B4D3E;
+}
